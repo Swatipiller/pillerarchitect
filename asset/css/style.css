@@ -31175,3 +31175,10 @@ border-radius: 100%;
     transform: translateX(100%) rotate(120deg);
   }
 }
+
+
+.rts-project-details-area .thumbnail img
+{
+  height: 215px;
+  width: 100%;
+}
