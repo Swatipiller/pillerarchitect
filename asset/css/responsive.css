@@ -61,5 +61,46 @@ ul.mainmenu li a
 .header-two .main-header .content .header-left a {
   padding: 10px 0 10px 15px;
   }
+  .pls-breadcrumb-area {
+  margin-top: 0;
+}
+.side-bar
+{
+  padding-top: 30px;
+}
+.pls-working-process-section.eight .pls-working-process-inner .wrapper
+{
+  min-height: auto;
+}
+.team-single-one-start {
+  margin-top: 20px;
+}
+.bg-email {
+  margin-top: 30px;
+}
+.pt_sm--80 {
+  padding-top: 10px !important;
+}
+.pb_sm--40 {
+  padding-bottom: 20px !important;
+}
+.footer-one-single-wized .wized-title {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.pls-section-gapTop {
+  padding-top: 20px;
+}
+.pls-section-gap {
+  padding: 20px 0;
+}
+.pls-working-process-section.eight .title-area::after
+{
+  display: none;
+}
+.mt--45
+{
+  margin-top: 0px;
+}
 }
 
