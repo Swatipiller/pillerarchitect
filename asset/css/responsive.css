@@ -141,6 +141,29 @@ ul.mainmenu li a
   width: 100%;
   display: block;
 }
+.number.nu-txt {
+  font-size: 24px !important;
+  margin-bottom: 20px;
+}
+.cta-h2-wrapper .body p.info.number {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: initial;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.footer-one .pls-copyright-area {
+  padding: 10px 0 10px 0;
+}
+.footer-one-single-wized.mid-bg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+}
+
+.nu-txt
+{
+line-height: normal;font-size: 40px
 }
 
 .mt-gap

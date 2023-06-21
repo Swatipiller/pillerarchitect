@@ -16447,6 +16447,7 @@ li.has-droupdown {
 .mainmenu li.has-droupdown .submenu li {
   margin-right: 0;
   padding: 0 15px;
+  width: 100%;
 }
 .mainmenu li.has-droupdown .submenu li:not(:last-child) {
   border-bottom: 1px solid #C4C4C426;
