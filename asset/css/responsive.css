@@ -159,6 +159,51 @@ ul.mainmenu li a
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.cus-dropdown-menu li
+{
+  border-bottom: 1px solid #C4C4C426;
+  margin-top: 0;
+margin-bottom: 0;
+}
+.cus-dropdown-menu.show
+{
+  width: 100%;
+  padding: 0rem 0;
+  border-top: 4px solid #7f2990;
+  top: 2px !important;
+  box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.07);
+border-left: 0;
+border-right: 0;
+border-bottom: 0;
+}
+.cus-dropdown-menu.show::after {
+  top: -20px;
+  left: 16%;
+  transform: translateX(-50%);
+  position: absolute;
+  content: "";
+  border: 8px solid transparent;
+  border-bottom-color: #7f2990;
+}
+.has-droupdown.cus-has-droupdown {
+  padding: 0 !important;
+}
+.cus-nav-link
+{
+  color: #000;
+  padding: 12px 10px;
+}
+
+.cus-nav-link:hover,
+.cus-nav-link:focus
+{
+  color: #7f2990;
+}
+.cus-dropdown-menu li a
+{
+  padding: 5px 10px;
+display: block;
+}
 }
 
 .nu-txt
