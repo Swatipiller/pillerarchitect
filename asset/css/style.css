@@ -699,7 +699,7 @@ ol ul {
 }
 
 .pls-section-gapTop {
-  padding-top: 120px;
+  padding-top: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pls-section-gapTop {
@@ -17525,9 +17525,9 @@ button.menu.pls-btn.btn-primary-3-menu:hover .menu-light {
 
 #menu-btn {
   background: var(--color-primary-alta);
-  height: 55px;
-  width: 55px;
-  padding: 17px;
+  height: 45px;
+  width: 45px;
+  padding: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28663,7 +28663,7 @@ background: rgba(0,0,0,0.6);
 }
 
 .contact-form-area-one {
-  padding: 120px 100px;
+  padding: 80px 100px;
   background: #fff;
   box-shadow: 0px 21px 46px #0000000a;
 }
