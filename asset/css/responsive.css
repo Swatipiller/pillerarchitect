@@ -204,11 +204,15 @@ border-bottom: 0;
   padding: 5px 10px;
 display: block;
 }
+.mt-gap {
+  margin-top: 0;
+}
 }
 
-.nu-txt
+.cta-h2-wrapper .body a.number.nu-txt
 {
-line-height: normal;font-size: 40px
+line-height: normal;font-size: 40px;
+margin-bottom: 20px;
 }
 
 .mt-gap
