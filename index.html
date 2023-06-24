@@ -811,54 +811,54 @@
                     </p>
                     <h2 class="title">Contact Details</h2>
                   </div>
-                    <form class="contact-form ajax-form" role="form" method="post" id="reused_form">
-              <div class="heading-bx mb-20 text-center">
-                <h6 class="title-ext text-primary">Contact Form</h6>
-                <h2 class="title mb-0">Do You Have Any Questions</h2>
-              </div>
-              <div class="ajax-message"></div>
-              <div class="contact-form-box">
-                <div class="row">
-                  <div class="col-xl-4 col-lg-6  col-md-12 col-sm-12">
-                    <div class="form-group">
-                      <input  type="text" required="" class="form-control valid-character" placeholder="Your Name" id="name" name="name">
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
-                    <div class="form-group">
-                      <input name="phone" id="phone" type="text" required="" class="form-control int-value" placeholder="Your Phone">
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
-                    <div class="form-group">
-                      <input id="email" name="email" type="email" class="form-control" required="" placeholder="Your Email Address">
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="form-group">
-                      <textarea name="message" id="message" rows="4" class="form-control" placeholder="Type Message" required=""></textarea>
-                    </div>
-                  </div>
-                  <div class="col-lg-12 text-center">
-                    <button name="submit" type="submit" value="Submit" class="btn btn-primary btn-lg" id="btnContactUs"> Send Message</button>
-                  </div>
-                  <div class="col-lg-12 text-center">
-                    <div id="success_message" style="width:100%; height:100%; display:none; ">
-                      <h3 style="color: green;
-                        font-size: 20px;
-                        text-align: center;margin-bottom: 0;
-                        margin-top: 20px;">Sent your message successfully!</h3>
-                    </div>
-                    <div id="error_message" style="width:100%; height:100%; display:none; ">
-                      <h3 style="color: red;
-                        font-size: 20px;
-                        text-align: center;">Error</h3>
-                      Sorry there was an error sending your form. 
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </form>
+                      <div class="hx-contact-form">
+                        <form  role="form" class="contact-form ajax-form" method="post" id="reused_form">
+                           <div class="ajax-message"></div>
+                     <div class="contact-form-boxx">
+                            <div class="">
+                           <div class="half-colt">
+                                 <input  type="text" required="" class="form-control valid-character" placeholder="Enter Name" id="name" name="name">
+                           </div>
+                           <div  class="half-colt">
+                                 <input id="email" name="email" type="email" class="form-control" required="" placeholder="Enter Email">
+                           </div>
+                           <div class="text-center mt-4">
+                              <button name="submit" style="text-transform: capitalize;" type="submit" value="Submit" class="btn btn-primary btn-lg theme-btn softo-solid-btn" id="btnContactUs"> Send Now</button>
+                           </div>
+
+                           <style type="text/css">
+                              .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ed1b07;
+    border-color: #ed1b07;
+}
+.btn-primary:not(:disabled):not(.disabled):focus, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ed1b07;
+    border-color: #ed1b07;
+    box-shadow: none;
+}
+                           </style>
+                           <div class="col-lg-12 text-center" style="display: none;">
+                              <div id="success_message" style="width:100%; height:100%; display:none; ">
+                                 <h3 style="color: green;
+                                    font-size: 20px;
+                                    text-align: center;margin-bottom: 0;
+                                    margin-top: 20px;">Sent your message successfully!</h3>
+                              </div>
+                              <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                 <h3 style="color: red;
+                                    font-size: 20px;
+                                    text-align: center;">Error</h3>
+                                 Sorry there was an error sending your form. 
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                        </form>
+
+                     </div>
+                 
                   <form action="#">
                     <div class="name-email">
                       <input type="text" placeholder="Your Name" required="">
