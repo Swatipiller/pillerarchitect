@@ -60,6 +60,126 @@
 }
 }
 
+
+@media only screen and (max-width: 1199px) {
+.rts-project-details-area .thumbnail {
+  margin-bottom: 15px;
+}
+ul.mainmenu li a 
+ {
+    color: #000;
+ }
+ ul.mainmenu 
+ {
+    color: #000;
+    padding-left: 0;
+ }
+ .rts-sidebar-menu-desktop .body-mobile .mainmenu li.has-droupdown .submenu .mobile-menu-link {
+  margin: 0;
+}
+.mainmenu li.has-droupdown .submenu li:not(:last-child) {
+  border-bottom: 1px solid #C4C4C426;
+}
+.mainmenu li.has-droupdown .submenu li {
+  padding: 0px 15px 10px 15px;
+}
+.mainmenu li.has-droupdown .submenu
+{
+  padding-left: 0;
+}
+.rts-sidebar-menu-desktop .body-mobile .mainmenu > li {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.07);
+  width: 100%;
+}
+.mainmenu li.has-droupdown .submenu
+{
+  min-width: 100%;
+  width: 100%;
+}
+.mainmenu li.has-droupdown .submenu li a {
+  padding: 12px 0;
+}
+.mainmenu li.has-droupdown > a::before {
+  right: 0;
+}
+.client-wrapper-one a img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 10px 14px;
+  border-radius: 0;
+}
+.header-two .main-header .content {
+  max-width: 100%;
+}
+.header-two .main-header .content {
+  max-width: 100%;
+}
+.header--sticky.sticky
+{
+  padding: 0 0;
+}
+.header-two .main-header .content .header-left a {
+  padding: 10px 0 10px 15px;
+  }
+  .pls-breadcrumb-area {
+  margin-top: 0;
+}
+.side-bar
+{
+  padding-top: 30px;
+}
+.cus-dropdown-menu li
+{
+  border-bottom: 1px solid #C4C4C426;
+  margin-top: 0;
+margin-bottom: 0;
+}
+.cus-dropdown-menu.show
+{
+  width: 100%;
+  padding: 0rem 0;
+  border-top: 4px solid #7f2990;
+  top: 2px !important;
+  box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.07);
+border-left: 0;
+border-right: 0;
+border-bottom: 0;
+}
+.cus-dropdown-menu.show::after {
+  top: -20px;
+  left: 16%;
+  transform: translateX(-50%);
+  position: absolute;
+  content: "";
+  border: 8px solid transparent;
+  border-bottom-color: #7f2990;
+}
+.has-droupdown.cus-has-droupdown {
+  padding: 0 !important;
+}
+.cus-nav-link
+{
+  color: #000;
+  padding: 12px 10px;
+}
+
+.cus-nav-link:hover,
+.cus-nav-link:focus
+{
+  color: #7f2990;
+}
+.cus-dropdown-menu li a
+{
+  padding: 5px 10px;
+display: block;
+}
+}
+
 @media only screen and (max-width: 575px) {
 .rts-project-details-area .thumbnail {
   margin-bottom: 15px;
