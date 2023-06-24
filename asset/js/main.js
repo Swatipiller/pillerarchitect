@@ -755,7 +755,7 @@
           $('#play-video, .play-video').on('click', function (e) {
               e.preventDefault();
               $('#video-overlay, .video-overlay').addClass('open');
-              $("#video-overlay, .video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/6stlCkUDG_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+              $("#video-overlay, .video-overlay").append('<iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
           });
 
           $('.video-overlay, .video-overlay-close').on('click', function (e) {
