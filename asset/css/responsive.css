@@ -1,8 +1,69 @@
+ .contacts-info .icon {
+                      background: #ca128c;
+                      width: 60px;
+                      height: 60px;
+                      text-align: center;
+                      font-size: 20px;
+                      color: #fff;
+                      border-radius: 12px;
+                      line-height: 60px;
+                      margin-right: 5px;
+                      margin-top: 5px;
+                      border-top: 4px solid #e8e8e8;
+                      border-left: 4px solid #e8e8e8;
+                      }
+                      .contacts-info .discription h5 {
+                      font-size: 16px;
+                      color: #5D666F;
+                      font-weight: 400;
+                      }
+                      .contacts-info .discription span {
+                      color: #1C2539;
+                      font-weight: 600;
+                      text-transform: capitalize;
+                      font-size: 17px;
+                      }
+                      .contacts-info .discription
+                      {
+                      margin-left: 20px;
+                      }
+                      .contacts-info
+                      {
+                      margin-bottom: 30px;
+                      border-bottom: 1px solid #EEE;
+                      margin-right: 15px;
+                      display: flex;
+                      padding-bottom: 30px
+                      }
+                      .contacts-info .discription h5.small-text-14px
+                      {
+                      font-size: 14px;
+                      }
+                      
 .nav-main ul li:hover a.nav-link {
   color: #CA128C;
 }
 
+.thumbnail-pro-gallery-bm
+{
+  margin-bottom: 90px;
+}
+
+.bg_banner-three
+{
+  height: 100vh;
+}
+
+@media only screen and (max-width: 991px) {
+.rts-project-details-area .thumbnail {
+  margin-bottom: 15px;
+}
+}
+
 @media only screen and (max-width: 575px) {
+.rts-project-details-area .thumbnail {
+  margin-bottom: 15px;
+}
 ul.mainmenu li a 
  {
     color: #000;
@@ -207,7 +268,13 @@ display: block;
 .mt-gap {
   margin-top: 0 !important;
 }
+.thumbnail-pro-gallery-bm
+{
+  margin-bottom: 40px;
 }
+}
+
+
 
 .cta-h2-wrapper .body a.number.nu-txt
 {

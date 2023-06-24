@@ -450,7 +450,7 @@ var {
 }
 
 /*---------------------------
-	List Style 
+  List Style 
 ---------------------------*/
 ul,
 ol {
@@ -10506,7 +10506,7 @@ textarea:-ms-input-placeholder {
 }
 
 /*=============================
-	Overlay styles 
+  Overlay styles 
 ==============================*/
 [data-overlay],
 [data-black-overlay],
@@ -10813,7 +10813,7 @@ body {
 .bg-footer-one::after {
   content: "";
   position: absolute;
-  background-image: url(../image/footer/h1-shape/01.svg);
+  background-image: url(../images/footer/h1-shape/01.svg);
   height: 450px;
   width: 450px;
   right: -3%;
@@ -10838,7 +10838,7 @@ body {
 .bg-footer-one::before {
   content: "";
   position: absolute;
-  background-image: url(../image/footer/h1-shape/02.png);
+  background-image: url(../images/footer/h1-shape/02.png);
   height: 800px;
   width: 823px;
   left: -16%;
@@ -16562,7 +16562,7 @@ li.has-droupdown {
 }
 
 .breadcrumb-bg {
-  background-image: url(../image/breadcrumb/01.jpg);
+  background-image: url(../images/breadcrumb/01.jpg);
 }
 
 .pls-breadcrumb-area {
@@ -16611,7 +16611,7 @@ li.has-droupdown {
   margin-right: 0;
 }
 .pls-breadcrumb-area .bread-tag span {
-  color: var(--color-primary);
+  color: #7f2990;
 }
 
 .side-bar {
@@ -18468,16 +18468,16 @@ button.menu.pls-btn.btn-primary-3-menu:hover .menu-light {
   background-image: url(../image/banner/banner-09.html);
 }
 .bg_banner-three.eight {
-  background-image: url(../image/banner/Slide1.jpg);
+  background-image: url(../images/banner/Slide1.jpg);
   padding-top: 400px;
 }
 .bg_banner-three.eight-2 {
-  background-image: url(../image/banner/Slide2.jpg);
+  background-image: url(../images/banner/Slide2.jpg);
   padding-top: 400px;
 }
 
 .bg_banner-three.eight-3 {
-  background-image: url(../image/banner/Slide3.jpg) !important;
+  background-image: url(../images/banner/Slide3.jpg) !important;
   padding-top: 400px;
 }
 
@@ -21884,14 +21884,14 @@ p.disc.banner-para {
 }
 
 .cta-bg-h2 {
-  background-image: url(../image/cta/bg-01.png);
+  background-image: url(../images/cta/bg-01.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .cta-bg-h3 {
-  background-image: url(../image/cta/bg-02.png);
+  background-image: url(../images/cta/bg-02.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -25774,7 +25774,7 @@ background: rgba(0,0,0,0.6);
 }
 
 .bg-client-r-h2 {
-  background-image: url(../image/testimonials/bg-01.jpg);
+  background-image: url(../images/testimonials/bg-01.jpg);
   background-position: top center;
   background-repeat: no-repeat;
 }
